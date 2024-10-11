@@ -1,6 +1,6 @@
 # S3D_QuickSwitch
 Blender Add-on | A One-click solution to quickly switch between Editor Areas
-# S3D_QuickSwitch Addon Documentation for Blender Extensions Platform
+# Documentation 
 
 ## Overview
 **S3D_QuickSwitch** is a Blender addon designed for users with limited screen real estate, such as those working on laptops or single-monitor setups. The addon helps reduce UI clutter and allows users to get things done faster by offering a simple, efficient way to switch between different editor areas with just one click. It is especially useful for users who frequently navigate between Blender's various editors but want to maintain a clean and organized workspace.

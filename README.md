@@ -23,8 +23,10 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
 
 ## Installation
-1. Visit the Blender Extensions platform to install the addon: [Waiting for approval]. Or, Download the "S3D_QuickSwitch.zip" froom: [Releases](https://github.com/Silvie3D/S3D_QuickSwitch/releases)
-3. Once installed, enable the addon from Blender’s preferences.
+1. Visit the Blender Extensions platform to install the addon: [Waiting for approval].
+     Alternatively, Download the "S3D_QuickSwitch.zip" from the latest [Release](https://github.com/Silvie3D/S3D_QuickSwitch/releases)
+2. Once installed, enable the addon from Blender’s preferences.
+3. Create switches and configure them to your liking.
 
 ## Usage Instructions
 1. After enabling the addon, go to **Edit > Preferences > Add-ons** and locate the **S3D_QuickSwitch** section.

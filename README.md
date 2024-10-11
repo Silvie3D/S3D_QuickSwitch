@@ -3,34 +3,32 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 # S3D_QuickSwitch Addon Documentation for Blender Extensions Platform
 
 ## Overview
-**S3D_QuickSwitch** is a Blender addon that allows quick and customizable switching between different editor tabs (e.g., 3D Viewport, Shader Editor, Properties). This simplifies the workflow by providing easy access to frequently used editors with a single click, improving productivity for users working across multiple editors.
+**S3D_QuickSwitch** is a Blender addon designed for users with limited screen real estate, such as those working on laptops or single-monitor setups. The addon helps reduce UI clutter and allows users to get things done faster by offering a simple, efficient way to switch between different editor areas with just one click. It is especially useful for users who frequently navigate between Blender's various editors but want to maintain a clean and organized workspace.
 
 ## Key Features
-- **Custom Tab Switching**: Define custom tab switches between editors, such as switching from the **3D Viewport** to the **Shader Editor**.
-- **Two-Way Switching**: Optional two-way switching feature, allowing users to toggle back and forth between editor tabs.
-- **User-Friendly UI**: The addon provides an intuitive UI in the preferences panel for adding, removing, and managing tab switches.
-- **Header Integration**: Quick switch buttons are automatically added to editor headers for seamless switching.
+- **Header Integration**: Quick switch buttons are automatically added to editor headers, allowing for a one-click solution to switch between editor areas without having to navigate menus.
+- **Custom Editor Switching**: Define custom switches between editor areas, such as switching from the **3D Viewport** to the **Shader Editor**.
+- **Two-Way Switching**: Optional two-way switching feature lets users toggle back and forth between editors with ease.
+- **Simple UI**: A minimalistic interface in the preferences panel allows for easy configuration of switches.
 
 ## Installation
-1. Download the `S3D_QuickSwitch.py` file.
-2. Open Blender and go to **Edit > Preferences > Add-ons**.
-3. Click **Install**, locate the downloaded `.py` file, and click **Install Add-on**.
-4. Enable the addon from the list.
+1. Visit the Blender Extensions platform to install the addon: [Insert Link Here]
+2. Once installed, enable the addon from Blender’s preferences.
 
 ## Usage Instructions
 1. After enabling the addon, go to **Edit > Preferences > Add-ons** and locate the **S3D_QuickSwitch** section.
-2. Click the **Add Switch** button to define a new tab switch.
+2. Click the **Add Switch** button to define a new editor switch.
 3. Configure the following options for each switch:
-   - **From Tab**: Select the editor you want to switch from (e.g., 3D Viewport).
-   - **To Tab**: Select the editor to switch to (e.g., Shader Editor).
-   - **Two-way**: Enable this option if you want the switch to work in both directions.
-4. A switch button will appear in the header of the active editor, allowing quick access to your configured tab.
+   - **From Area**: Select the editor area you want to switch from (e.g., 3D Viewport).
+   - **To Area**: Select the editor area to switch to (e.g., Shader Editor).
+   - **Two-way**: Enabled by default, this option allows to switch between One-way and Two-way mode.
+4. A switch button will appear in the header of the active editor area, allowing quick access to your configured switches.
 
 ### Example Setup:
 - Create a switch from **3D Viewport** to **Shader Editor**.
-- A button will appear in the **3D Viewport** header, allowing you to switch instantly.
+- A button will appear in the **3D Viewport** and **Shader Editor** header right most end (Refer Preview images), allowing you to switch instantly between then.
 
-## Supported Editors
+## Supported Editor Areas
 - 3D Viewport
 - Shader Editor
 - Video Sequencer
@@ -44,9 +42,9 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 ## Support & Feedback
 For any questions, issues, or suggestions regarding **S3D_QuickSwitch**, please contact:
 - **Maintainer**: Silvie3D
-- **Email**: rabahahmed95@gmail.com>
+- **Email**: rabahahmed95@gmail.com
 
 ## License
-© 2023-2024 Silvie3D
+© 2024 Silvie3D
 
 **This addon is licensed under [GNU GENERAL PUBLIC LICENSE 3.0].**

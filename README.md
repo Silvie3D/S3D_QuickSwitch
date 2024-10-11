@@ -44,7 +44,7 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 ## Support & Feedback
 For any questions, issues, or suggestions regarding **S3D_QuickSwitch**, please contact:
 - **Maintainer**: Silvie3D
-- **Email**: your-email@example.com
+- **Email**: rabahahmed95@gmail.com>
 
 ## License
 © 2023-2024 Silvie3D

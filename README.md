@@ -38,7 +38,7 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
 1. **Official Installation**:  
 
-   Open Blender, go to **Edit > Preferences > Get Extensions**, search for **"Quick Switch"** and click **Install** to install directly.  
+   Open Blender (**requires version 4.2 or above**), go to **Edit > Preferences > Get Extensions**, search for **"Quick Switch"** and click **Install** to install directly.  
     
 3. **Alternate Installation**:
 

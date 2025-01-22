@@ -67,15 +67,10 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 - A button will appear in the **3D Viewport** and **Shader Editor** header right most end (Refer [Preview images](#preview) ), allowing you to switch instantly between then.
 
 ## Supported Editor Areas
-- 3D Viewport
-- Shader Editor
-- Video Sequencer
-- Properties
-- Outliner
-- Python Console
-- Image Editor
-- Text Editor
-- And many more.
+All Editor areas are supported except: 
+- ❌ Asset Browser
+- ❌ File Explorer
+
 
 ## Support & Feedback
 For any questions, issues, or suggestions, please contact:

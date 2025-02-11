@@ -1,14 +1,14 @@
-# S3D_QuickSwitch
-
+# Documentation
 Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
-# Documentation
+<img src="Preview/cover.png" alt="Addon Preview">
+
+
 
 ## INDEX
 
 **Click the links below to directly jump to the desired chapter**
 
-- [S3D\_QuickSwitch](#s3d_quickswitch)
 - [Documentation](#documentation)
   - [INDEX](#index)
   - [Overview](#overview)
@@ -39,19 +39,19 @@ With **v2.0.0**, the add-on has undergone a complete UI overhaul and now introdu
 
 - **Header Integration**: Quick switch buttons are automatically added to right most end of the editor headers for seamless navigation.
  
-  <img src="Preview/preview.png" alt="Addon Preview">
+   <img src="Preview/preview.png" alt="Addon Preview">
 
 - **Grouped Editor Switching (New!)**: Users can define groups of editors and switch between them effortlessly.
 
- <img src="Preview/groups.png" alt="Addon Preview">
+   <img src="Preview/groups.png" alt="Addon Preview">
    
 - **Reorder Editors**: Move editors up or down within a group to customize the switch sequence.  
 
- <img src="Preview/reorder.png" alt="Addon Preview">
+   <img src="Preview/reorder.png" alt="Addon Preview">
    
 - **Separator Toggle**: Option to enable or disable a visual separator between editor switches and other header operators for better UI clarity.  
 
- <img src="Preview/separator.png" alt="Addon Preview">
+   <img src="Preview/separator.png" alt="Addon Preview">
    
 ---       
 
@@ -118,7 +118,7 @@ For any questions, issues, or suggestions, feel free to reach out:
 
 - **Maintainer**: Rabah Ahmed (**Silvie3D**)
 - **Email**: [rabahahmed95@gmail.com](mailto:rabahahmed95@gmail.com)
-- **GitHub Issues**: [S3D_QuickSwitch Issues](https://github.com/Silvie3D/S3D_QuickSwitch/issues)
+- **Issues**: [S3D_QuickSwitch Issues](https://github.com/Silvie3D/S3D_QuickSwitch/issues)
 
 ---
 

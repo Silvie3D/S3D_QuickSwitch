@@ -34,7 +34,8 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
 ## Demo video
 
-   <video src="Preview/demo_video.mp4" alt="Addon Preview">?
+   [![Addon Preview](Preview/cover.png)](Preview/demo_video.mp4)
+
    
 
 ---

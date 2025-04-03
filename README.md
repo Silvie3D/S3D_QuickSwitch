@@ -11,7 +11,6 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
 - [Documentation](#documentation)
   - [INDEX](#index)
-  - [Demo video](#demo-video)
   - [Overview](#overview)
   - [Key Features](#key-features)
   - [Installation](#installation)

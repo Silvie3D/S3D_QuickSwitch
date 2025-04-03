@@ -11,18 +11,31 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
 - [Documentation](#documentation)
   - [INDEX](#index)
+  - [Demo video](#demo-video)
   - [Overview](#overview)
   - [Key Features](#key-features)
   - [Installation](#installation)
     - [**Official Installation**](#official-installation)
     - [**Alternate method**](#alternate-method)
-  - [Usage Instructions](#usage-instructions)
-    - [**Creating Editor Groups**](#creating-editor-groups)
-    - [**Using Quick Switch Buttons**](#using-quick-switch-buttons)
-    - [**Example Setup**](#example-setup)
+  - [Setup and Configuration](#setup-and-configuration)
+    - [Accessing Preferences](#accessing-preferences)
+    - [Creating Editor Groups](#creating-editor-groups)
+    - [Adding Editors to Groups](#adding-editors-to-groups)
+    - [UI Appearance Settings](#ui-appearance-settings)
+    - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [Using the Addon](#using-the-addon)
+    - [Switching Editors with UI Buttons](#switching-editors-with-ui-buttons)
+    - [Using Keyboard Shortcuts](#using-keyboard-shortcuts)
   - [Supported Editor Areas](#supported-editor-areas)
   - [Support \& Feedback](#support--feedback)
   - [License](#license)
+
+---
+
+## Demo video
+
+   <video src="Preview/demo_video.mp4" alt="Addon Preview">?
+   
 
 ---
 
@@ -31,7 +44,6 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 **Quick Switch** is a Blender add-on designed for users with limited screen space, such as those working on laptops or single-monitor setups. The addon helps reduce UI clutter and improves workflow efficiency by providing a one-click solution to switch between different editor areas.
 
 With **v2.0.0**, the add-on has undergone a complete UI overhaul and now introduces **Grouped Editor** Switching feature, enabling users to define sets of editors and switch between them like browser tabs.
-
 
 ---
 
@@ -52,6 +64,13 @@ With **v2.0.0**, the add-on has undergone a complete UI overhaul and now introdu
 - **Separator Toggle**: Option to enable or disable a visual separator between editor switches and other header operators for better UI clarity.  
 
    <img src="Preview/separator.png" alt="Addon Preview">
+   
+- **Position Toggle**: Option to toggle position of the switches between Left and right side of header.
+
+   <img src="Preview/position.png" alt="Addon Preview">
+- **Custom Key binding**: Set custom key binding combinations to switch editors quickly (Similar to browser tabs) without interfering with Blender's In-built key binds .
+
+   <img src="Preview/keybinds.png" alt="Addon Preview">
    
 ---       
 
@@ -77,38 +96,54 @@ Or manually download the latest release:
 
 ---
 
-## Usage Instructions
+## Setup and Configuration
 
-### **Creating Editor Groups**
+### Accessing Preferences
+1. Install the addon through Blender Preferences > Add-ons
+2. Access the addon preferences through Edit > Preferences > Add-ons > S3D QuickSwitch
 
-1. Go to **Edit > Preferences > Add-ons**
-2. Locate **Quick Switch**
-3. Under the preferences panel:
-   - Click **Add Editor Group** to create a new group
-   - Assign editors to the group (e.g., **3D Viewport, Shader Editor, Geometry Nodes**)
+### Creating Editor Groups
+1. In the preferences panel, locate the "Editor Groups" section
+2. Click "Add" to create a new group
+3. Rename the group to something meaningful (e.g., "Modeling", "Texturing", "Animation")
 
-### **Using Quick Switch Buttons**
+### Adding Editors to Groups
+1. Select a group from the "Editor Groups" list
+2. In the "Editor Switches" section, click "Add" to add a new editor
+3. Select the desired editor type from the dropdown menu
+4. Add multiple editors to create a complete workflow group
+5. Use the "Up" and "Down" buttons to reorder editors in the group
 
-- Buttons will appear in the right most end on the **header** of editor areas included in your groups.
-- Click the a switch of your choice to cycle through the editors in the group.
+### UI Appearance Settings
+1. In the "Position and Separator" box:
+   - Choose "Left" or "Right" for the switch position in editor headers
+   - Toggle the separator visibility on/off
 
----
+### Keyboard Shortcuts
+1. In the "Keyboard Shortcuts" box:
+   - Enable keyboard shortcuts
+   - Select your preferred modifier key (Alt, Ctrl, Shift, or combinations)
+   - Select your preferred key to combine with the modifier
+   - The current shortcut will be displayed below the selection
 
-### **Example Setup**
+## Using the Addon
 
-- **Group 1**: **3D Viewport → Preferences→ Image Editor**
-- **Group 2**: **Shader node Editor → Geometry node Editor→Compositor**
-- **Group 3**: **Outliner → Properties → Python Console**
+### Switching Editors with UI Buttons
+1. Look for the editor switch buttons in the header of any Blender editor
+2. When in an editor that belongs to a group, all editors from that group will be displayed
+3. Click on any icon to switch to that editor type
+4. The current editor is shown as depressed (highlighted)
+
+### Using Keyboard Shortcuts
+1. Place your cursor over an editor area
+2. Press your configured shortcut (e.g., Alt+Backtick) to cycle to the next editor in the group
+3. Continue pressing to cycle through all editors in the group
 
 ---
 
 ## Supported Editor Areas
 
-All Editor areas are supported except:    
-
-    ❌Asset Browser
-
-    ❌File Explorer
+All Editor areas are supported from [v2.1.0](#) update.
 
 ---
 

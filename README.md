@@ -32,14 +32,6 @@ Blender Add-on | A One-click solution to quickly switch between Editor Areas
 
 ---
 
-## Demo video
-
-   [![Addon Preview](Preview/cover.png)](Preview/demo_video.mp4)
-
-   
-
----
-
 ## Overview
 
 **Quick Switch** is a Blender add-on designed for users with limited screen space, such as those working on laptops or single-monitor setups. The addon helps reduce UI clutter and improves workflow efficiency by providing a one-click solution to switch between different editor areas.

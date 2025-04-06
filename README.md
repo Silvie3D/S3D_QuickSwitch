@@ -48,6 +48,11 @@ With **v2.0.0**, the add-on has undergone a complete UI overhaul and now introdu
 - **Grouped Editor Switching (New!)**: Users can define groups of editors and switch between them effortlessly.
 
    <img src="Preview/groups.png" alt="Addon Preview">
+
+- **Add Editors**: Add list of editors under each groups.
+
+   <img src="Preview/editorlist.png" alt="Addon Preview">
+
    
 - **Reorder Editors**: Move editors up or down within a group to customize the switch sequence.  
 

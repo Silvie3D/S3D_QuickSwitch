@@ -68,6 +68,16 @@ With **v2.0.0**, the add-on has undergone a complete UI overhaul and now introdu
 - **Custom Key binding**: Set custom key binding combinations to switch editors quickly (Similar to browser tabs) without interfering with Blender's In-built key binds .
 
    <img src="Preview/keybinds.png" alt="Addon Preview">
+
+- **Visibility Toggle**:Enable / Disable Switch groups from headers while retaining switching functionality via keybinds only
+
+   <img src="Preview/visibility.png" alt="Addon Preview">
+  
+   
+- **Backup / Restore**: Easily Backup / Restore user config and other addon preferences into an external json file
+
+   <img src="Preview/backup.png" alt="Addon Preview">
+  
    
 ---       
 
